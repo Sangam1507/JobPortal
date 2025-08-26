@@ -16,8 +16,8 @@ This project is built to demonstrate **Java, Spring Boot, MySQL, and modern web 
 ---
 
 ## 🛠️ Tech Stack
-- **Backend**: Java, Spring Boot, Spring Security, JPA/Hibernate  
-- **Frontend**: HTML, CSS, JavaScript (or Thymeleaf if used)  
+- **Backend**: Java, Spring Boot, Spring Security, JPA/Hibernate
+- **Frontend**: HTML, CSS, JavaScript    
 - **Database**: MySQL  
 - **Build Tool**: Maven  
 - **Version Control**: Git & GitHub  
