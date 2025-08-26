@@ -1,70 +1,32 @@
-# 💼 Job Platform
+# 🧑‍💼 Job Portal Platform
 
-A full-featured **Job Platform Application** built with **Spring Boot (Microservices Architecture)**.  
-It provides a platform for **students/job seekers**, **recruiters**, and **admins** with modules for authentication, job posting, applications, payments, and analytics.
+A complete **Job Portal Web Application** where users can register, apply for jobs, and companies can post job openings.  
+This project is built to demonstrate **Java, Spring Boot, MySQL, and modern web development** practices.  
 
 ---
 
 ## 🚀 Features
-
-- **Authentication & Authorization** (JWT-based login & registration)
-- **Student Module**  
-  - Register, login, update profile  
-  - Apply for jobs  
-  - View application status  
-- **Recruiter Module**  
-  - Post new jobs  
-  - Manage job postings  
-  - View applicants  
-- **Admin Module**  
-  - Manage users (students/recruiters)  
-  - Manage subscription plans & payments  
-  - View system analytics  
-- **Payments & Subscription**  
-  - Razorpay integration  
-  - Subscription plans for recruiters  
-  - Invoice generation  
-- **File Upload & Email Service**  
-  - Upload resumes/documents (via Cloudinary)  
-  - Email notifications for jobs, applications, and payments  
-- **Microservices Architecture**  
-  - Config Server  
-  - API Gateway  
-  - Eureka Server (Service Discovery)  
-  - Multiple independent services (Auth, Student, Recruiter, JobPost, Payment, etc.)  
+- 👤 **User Management**: Registration, Login & Profile Management  
+- 💼 **Job Listings**: View, Search, and Apply for jobs  
+- 🏢 **Company Module**: Employers can post and manage job openings  
+- 🔒 **Authentication & Authorization** with Spring Security + JWT  
+- 🗄 **Database Integration** with MySQL  
+- 🎨 **Modern Frontend Design** for user-friendly experience  
 
 ---
 
 ## 🛠️ Tech Stack
-
-- **Backend:** Java 8+, Spring Boot, Spring Security, JPA/Hibernate  
-- **Database:** MySQL  
-- **Authentication:** JWT  
-- **Payment Integration:** Razorpay  
-- **Cloud:** Cloudinary (File Uploads)  
-- **Service Discovery:** Eureka Server  
-- **API Gateway:** Spring Cloud Gateway  
-- **Build Tool:** Maven  
+- **Backend**: Java, Spring Boot, Spring Security, JPA/Hibernate  
+- **Frontend**: HTML, CSS, JavaScript (or Thymeleaf if used)  
+- **Database**: MySQL  
+- **Build Tool**: Maven  
+- **Version Control**: Git & GitHub  
 
 ---
-## 📂 Project Structure
 
-job_portal/
-│-- src/main/java/com/jobPortal/
-│ ├── Controller/ # REST Controllers (Student, Recruiter, Admin, Auth, etc.)
-│ ├── DTO/ # Data Transfer Objects
-│ ├── Entity/ # JPA Entities
-│ ├── Enum/ # Enum classes (Roles, PaymentStatus, etc.)
-│ ├── Repository/ # Spring Data JPA Repositories
-│ ├── Security/ # JWT & Spring Security Config
-│ ├── Service/ # Service Layer (Business Logic)
-│ └── *Application.java# Multiple microservice entry points
-│
-│-- src/main/resources/
-│ ├── application.properties
-│ ├── static/
-│ └── templates/
-│
-│-- pom.xml
 ## 📂 Project Structure
-
+Job_Platfom-main/
+│-- src/ # Source code
+│-- pom.xml # Maven dependencies
+│-- application.yml # Spring Boot configuration
+│-- README.md # Project documentation
